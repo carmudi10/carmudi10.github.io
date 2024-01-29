@@ -51,7 +51,7 @@
                                 <!-- * * * * * * * * * * * * * * *-->
                                 <!-- This form is pre-integrated with SB Forms.-->
                                 <!-- To make this form functional, sign up at-->
-                                <!-- https://startbootstrap.com/solution/contact-forms-->
+                                 <!-- https://startbootstrap.com/solution/contact-forms--> 
                                 <!-- to get an API token!-->
                                 <form id="contactForm" data-sb-form-api-token="API_TOKEN">
                                     <!-- Name input-->
@@ -80,6 +80,14 @@
                                         <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
                                     </div>
                                     <!-- Submit success message-->
+                                    <form id="contactForm" action="process_form.php" method="post">
+                                        <!-- Form fields -->
+                                        <!-- ... -->
+                                    
+                                        <!-- Submit Button-->
+                                        <div class="d-grid"><button class="btn btn-primary btn-lg" type="submit">Kirim</button></div>
+                                    </form>
+                                    
                                     <!---->
                                     <!-- This is what your users will see when the form-->
                                     <!-- has successfully submitted-->
@@ -97,8 +105,7 @@
                                     <!-- an error submitting the form-->
                                     <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
                                     <!-- Submit Button-->
-                                    <div class="d-grid"><button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Kirim</button></div>
-                                </form>
+                                   </form>
                             </div>
                         </div>
                     </div>
