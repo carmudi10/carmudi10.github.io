@@ -20,9 +20,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     mail($to, $subject, $email_body);
 
     // Redirect ke halaman sukses
-    header("Location: contact.html");
+    header("Location: #0");
 } else {
     // Jika bukan metode POST, redirect ke halaman error
-    header("Location: error_page.html");
+    header("Location:#0");
 }
 ?>
