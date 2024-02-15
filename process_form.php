@@ -23,6 +23,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     header("Location: #0");
 } else {
     // Jika bukan metode POST, redirect ke halaman error
-    header("Location:#0");
+    header("Location:error");
 }
 ?>
